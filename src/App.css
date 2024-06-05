@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  background-color: whitesmoke;
+  height: 600px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-radius: 20px;
+}
+.ui{
+  height: 500px;
+   padding: auto;
+   border-radius: 10px;
+ 
+}
+.field{
+  height: 120px;
+  position: relative;
+  text-align: start;
+
+}
+.field input{
+  height: 40px;
+   color: black;
+   background: white;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   padding: auto;
+   margin-top: 10px;
+   font-size: 15px;
+}
+.field lable{
+  font-weight: 300;
+  font-size: 20px;
+}
+.ui p{
+ font-size: 16px;
+ color: crimson;
+ position: absolute;
+bottom: 0;
+margin-top: 20px;
+}
